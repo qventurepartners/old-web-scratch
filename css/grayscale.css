@@ -213,7 +213,7 @@ a:focus {
 }
 
 .about .about-body .about-text {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 @media(min-width:768px) {
@@ -222,16 +222,13 @@ a:focus {
         padding: 100px 0;
     }
 
-    .about .about-body .about-text {
-        font-size: 40px;
-    }
 }
 
 .team {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 75px 0 0 0;
     text-align: center;
     color: #000;
     /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
@@ -259,35 +256,31 @@ a:focus {
 @media(min-width:768px) {
     .team {
         height: 100%;
-        padding: 100px 0;
     }
 
-    .team .team-body .team-text {
-        font-size: 26px;
+    
+    div.person-text{
+        text-align: left;
     }
 }
 
-div.team-member {
-    padding-top: 50px;
+div.team-pic-table{
+    height: 200px;
 }
 
 img.team-pic {
-    height: 150px;
+    height: 190px;
 }
 
 span.person-name {
     font-size: 20px;
-    color: #1A0E29;
+    font-weight: 700;
+    color: #000;
 }
 
-span.person-title {
-    font-size: 14px;
-    font-style: italic;
-}
 
 div.person-blurb {
-    font-size: 14px;
-    text-align: center;
+    font-size: 16px;
 }
 
 .contact {
@@ -581,8 +574,15 @@ input.email-input:focus {
     outline-width: 0;
 }
 
-span.about-span {
-    font-size: 20px;
+span.about-title {
+    font-size: 24px;
+    color: #583046;
+}
+
+div.about-span {
+    font-size: 16px;
+    color: black;
+    text-align: left;
 }
 
 @media(min-width:768px) {
@@ -593,10 +593,6 @@ span.about-span {
 
     img.qvp-logo-nav {
         margin-top: 4px;
-    }
-
-    span.about-span {
-        font-size: 30px;
     }
 }
 
